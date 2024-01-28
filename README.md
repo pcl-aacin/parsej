@@ -175,9 +175,9 @@ result 其实没什么好说的，就是一个 Promise，在运行完成后结�
 ```typescript
 import * as fs from "fs";
 
-console.log("*I'm in*", fs.realpathSync(""));
-console.log(await new Promise(okay => okay("*Hello World!*")));
-console.log("*Oh! Now is*", time);
+console.log("I'm in", fs.realpathSync(""));
+console.log(await new Promise(okay => okay("Hello World!")));
+console.log("Oh! Now is", time);
 
 export default fs.realpathSync("");
 ```
@@ -209,9 +209,9 @@ async (store, {
   time
 }) => {
   const fs = await import("fs");
-  console.log("*I'm in*", fs.realpathSync(""));
-  console.log(await new Promise(okay => okay("*Hello World!*")));
-  console.log("*Oh! Now is*", time);
+  console.log("I'm in", fs.realpathSync(""));
+  console.log(await new Promise(okay => okay("Hello World!")));
+  console.log("Oh! Now is", time);
   store.export("const", "default", fs.realpathSync(""));
 };
 ```
