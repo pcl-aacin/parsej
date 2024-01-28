@@ -2,7 +2,7 @@
 	<img src="icon.png" height="160" /> <br/>
 
 # Parse.JS
-A project that imports .js,. ts, .cjs, and .mjs by [Babel](https://github.com/babel/babel)
+A project that imports .js, .ts, .cjs and .mjs by [Babel](https://github.com/babel/babel)
  
 <img src="https://img.shields.io/github/license/pcl-aacin/parsej?style=for-the-badge">
 <img src="https://img.shields.io/github/forks/pcl-aacin/parsej?style=for-the-badge">
