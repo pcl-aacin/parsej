@@ -1,0 +1,9 @@
+{
+  "name": "parsej",
+  "version": "1.0.0",
+  "description": "A project that calls. js,. ts,. cjs, and. mjs by Babel",
+  "main": "index.ts",
+  "repository": "https://github.com/pcl-aacin/parsej",
+  "author": "kingstarjun",
+  "license": "GPL-3.0"
+}
