@@ -5,5 +5,16 @@
   "main": "index.ts",
   "repository": "https://github.com/pcl-aacin/parsej",
   "author": "kingstarjun",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/generator": "^7.23.6",
+    "@babel/parser": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-typescript": "^7.23.3",
+    "@babel/register": "^7.23.7",
+    "@babel/traverse": "^7.23.9",
+    "@types/node": "^20.11.8",
+    "typescript": "^5.3.3"
+  }
 }

@@ -1,0 +1,1 @@
+console.log(await new Promise(r => r("Hello World")))

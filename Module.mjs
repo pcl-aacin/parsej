@@ -1,0 +1,1 @@
+export default (path, code) => (__dirname = path, eval(code));
