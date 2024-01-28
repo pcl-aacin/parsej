@@ -8,18 +8,18 @@ import traverse from "@babel/traverse";
 import * as parser from "@babel/parser";
 import generate from "@babel/generator";
 
-import { CustomSettings } from "./types/CustomSettings";
-import { ExportStore } from "./types/ExportStore";
-import { Params } from "./types/Params";
+import { CustomSettings } from "./types/CustomSettings.ts";
+import { ExportStore } from "./types/ExportStore.ts";
+import { Params } from "./types/Params.ts";
 
-import TypesTraverser from "./TypesTraverser";
-import AsyncTraverser from "./AsyncTraverser";
-import ExportTraverser from "./ExportTraverser";
+import TypesTraverser from "./TypesTraverser.ts";
+import AsyncTraverser from "./AsyncTraverser.ts";
+import ExportTraverser from "./ExportTraverser.ts";
 
-import { CustomSettingsHandler } from "./CustomSettingsHandler";
+import { CustomSettingsHandler } from "./CustomSettingsHandler.ts";
 
 import CommonJS from "./CommonJS.cjs";
-import TypeScript from "./TypeScript";
+import TypeScript from "./TypeScript.ts";
 import Module from "./Module.mjs";
 
 function exec(targetFilePath: string, params: Params, customSettings?: CustomSettings) {
